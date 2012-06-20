@@ -25,7 +25,7 @@ lapply(c("ggplot2", "psych", "RCurl", "irr", "car","Hmisc", "gmodels","qpcR", "V
 #####################################################################################
 
 #if you are using a file that is local to your computer, then replace path below by path to the data file. command will throw all the data into the templateData object
-obesityData <- read.csv("/Users/rpietro/Google Drive/R/mturk_obesity/mturk_obesity_test1.csv", stringsAsFactors=FALSE)
+obesityData <- read.csv("/Users/rpietro/Google Drive/R/nonpublicdata_publications/mturk_obesity/mturk_obesity.csv", stringsAsFactors=FALSE)
 
 #could not place the file on google sheet as the number of variables exceeds the maximum number of variables google sheets allows
 
